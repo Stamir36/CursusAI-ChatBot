@@ -1,3 +1,3 @@
-python -m pip install torch transformers requests langdetect
+python -m pip install torch transformers requests langdetect sacremoses sentencepiece diffusers accelerate
 cls
-python run.py online
+python colab_v1.1.py online

@@ -3,7 +3,17 @@
 Chatbot based on Python and Transformers 🤗, with support for working in the terminal and on the Cursus Messenger website.
 
 ![CursusBot Banner](https://i.ibb.co/Ny8P19X/cursusbot-ai.png)
-> Supports Russian and English. Translation based on Yandex API.
+> Supports Russian and English.
+
+# Features
+
+- Carry on a light dialogue 💬.
+- Translate text from Russian into English and vice versa.
+- Generate images from image description using "Openjourney" 🖼️.
+
+## Launch with Google Colab.
+To run a project based on Google computers, go to [Official notepad](https://colab.research.google.com/drive/1BnPDnLK52OPSOVL3TyE7S-_zqI2Nakx-?usp=sharing), and run each code in turn. After that, return to CursusBot in the Cursus messenger and start chatting. To execute commands, enter "/" in the text box.
+
 ## What for and why?
 Anyone who is interested in artificial intelligence and wants to try different models, you are in the right place. This repository has a script for launching a neural model in two modes: in the console and in Cursus Messenger.
 
@@ -17,7 +27,7 @@ Check out the following resources to help you get started with neural chatbots:
 - [Unesell API](https://api.unesell.com/#aimodels) - Instructions for running the script on the local computer.
 - [Hugging Face](https://huggingface.co/) - Here you can find any other model to run.
 
-## Installation
+## Installation on a local machine
 
 Visit the [Unesell API](https://api.unesell.com/#aimodels) page for details.
 
@@ -43,8 +53,14 @@ To run in terminal
 python run.py local
 ```
 
+## Image generation
+After running the script on Colab or the server, you need to go to the chat of the bot, and run the following command, entering prompts or a description of what you want to receive:
+```sh
+/imageline {prompt}
+```
+
 ## Screenshot of online mode
-![CursusBot Banner](https://i.ibb.co/yR66Tqz/image.png)
+![CursusBot Banner](https://i.ibb.co/LPQQnVw/bot-ai.png)
 
 # License and Author
 The source code of the program is open, distribution and modification is allowed only with the consent of the author.<br>
